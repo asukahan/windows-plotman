@@ -14,14 +14,14 @@ directories:
         # If multiple directories share a common prefix, reports will
         # abbreviate and show just the uniquely identifying suffix.
         tmp:
-                - d:\temp1
-                - d:\temp2
-                - d:\temp3
-                - d:\temp4
-                - d:\temp5
-                - e:\temp6
-                - e:\temp7
-                - c:\temp8
+                - d:\temp
+#                - d:\temp2
+#                - d:\temp3
+#                - d:\temp4
+#                - d:\temp5
+#                - e:\temp6
+#                - e:\temp7
+ #               - c:\temp8
 
 
         # Optional: tmp2 directory.  If specified, will be passed to
