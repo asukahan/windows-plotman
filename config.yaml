@@ -14,14 +14,14 @@ directories:
         # If multiple directories share a common prefix, reports will
         # abbreviate and show just the uniquely identifying suffix.
         tmp:
-                - e:\1
-                - h:\1
-                - e:\2
-                - i:\1
-                - e:\3
-                - h:\2
-                - i:\2
-                - e:\4
+                - d:\temp1
+                - d:\temp2
+                - d:\temp3
+                - d:\temp4
+                - d:\temp5
+                - e:\temp6
+                - e:\temp7
+                - c:\temp8
 
 
         # Optional: tmp2 directory.  If specified, will be passed to
@@ -33,7 +33,6 @@ directories:
         # so writes (plot jobs) and reads (archivals) can be scheduled
         # to minimize IO contention.
         dst:
-                - z:\
                 - f:\
                             
                 
@@ -76,6 +75,6 @@ scheduling:
 plotting:
         k: 32
         e: False              # Use -e plotting option
-        n_threads: 3        # Threads per job
+        n_threads: 4        # Threads per job
         n_buckets: 128       # Number of buckets to split data into
         job_buffer: 6500     # Per job memory
