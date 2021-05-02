@@ -109,7 +109,7 @@ def maybe_start_new_plot(dir_cfg, sched_cfg, plotting_cfg):
             
             
             
-            plot_args = [r'C:\Users\Asukahan\AppData\Local\chia-blockchain\app-1.1.1\resources\app.asar.unpacked\daemon\chia2.exe','plots', 'create',
+            plot_args = [r'C:\Users\Asukahan\AppData\Local\Chia-Blockchain\app-1.1.3\resources\app.asar.unpacked\daemon\chia2.exe','plots', 'create',
                     '-k', str(plotting_cfg['k']),
                     '-r', str(plotting_cfg['n_threads']),
                     '-u', str(plotting_cfg['n_buckets']),
