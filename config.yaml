@@ -33,8 +33,8 @@ directories:
         # so writes (plot jobs) and reads (archivals) can be scheduled
         # to minimize IO contention.
         dst:
-                - e:\
-                - g:\            
+                - e:\plots
+                - g:\plots            
                 
         # Archival configuration.  Optional; if you do not wish to run the
         # archiving operation, comment this section out.
